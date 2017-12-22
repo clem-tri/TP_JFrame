@@ -1,0 +1,87 @@
+{
+  "cards": [
+    {
+      "name": "Pikachu",
+      "health_points": 60,
+      "energy_type": "Lightning",
+      "attacks": [
+        {
+          "name": "Eclair",
+          "power": 40
+        },
+        {
+          "name": "Tonnerre",
+          "power": 50
+        }
+      ],
+      "weakness": [
+        "Fighting",
+        2
+      ],
+      "resistance": [
+        "Water",
+        20
+      ],
+      "type": "MONSTER"
+    },
+    {
+      "name": "Carapuce",
+      "health_points": 60,
+      "energy_type": "Water",
+      "attacks": [
+        {
+          "name": "Canon à eau",
+          "power": 40
+        },
+        {
+          "name": "Goutte",
+          "power": 50
+        }
+      ],
+      "weakness": [
+        "Grass",
+        2
+      ],
+      "resistance": [
+        "Fire",
+        20
+      ],
+      "type": "MONSTER"
+    },
+    {
+      "name": "Salamèche",
+      "health_points": 70,
+      "energy_type": "Fire",
+      "attacks": [
+        {
+          "name": "Flamèche",
+          "power": 30
+        },
+        {
+          "name": "Brasier",
+          "power": 60
+        }
+      ],
+      "weakness": [
+        "Water",
+        2
+      ],
+      "resistance": [
+        "Grass",
+        30
+      ],
+      "type": "MONSTER"
+    },
+
+    {
+      "name": "Colorless",
+      "health_points": 0,
+      "energy_type": "Colorless",
+      "attacks": [],
+      "type": "ENERGY"
+    }
+
+  ],
+
+  "name": "Deck1"
+}
